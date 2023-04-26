@@ -1,0 +1,137 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: orange;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Header */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	font-weight: bold;
+}
+
+/* Hero section */
+#hero {
+	background-image: url("https://www.ecranlarge.com/media/cache/1600x1200/uploads/articles/000/000/000/le-chat-potte-2-la-derniere-quete-photo-1422976-large.jpg");
+	background-position: center center;
+	background-size: cover;
+	padding: 100px 20px;
+	text-align: center;
+	color: #fff;
+}
+
+#hero h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+#hero p {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.button {
+	background-color: #c00;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+	background-color: #900;
+	cursor: pointer;
+}
+
+/* Movie info section */
+#movie-info {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+#movie-info h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+}
+#movie-info p {
+	margin-bottom: 20px;
+}
+
+/* Showtimes section */
+#showtimes {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+#showtimes h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+thead {
+	background-color: #333;
+	color: #fff;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+h2, p {
+	text-align: center;
+}
